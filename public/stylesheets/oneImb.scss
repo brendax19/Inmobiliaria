@@ -1,0 +1,90 @@
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-image: url(/images/playa.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-style: italic;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+
+.inmobiliaria {
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.inmobiliaria:hover {
+
+  transform: translateY(-10px);
+}
+.foto {
+  border-radius: 15px;
+}
+
+.btn-morado {
+  background-color: rgb(178, 14, 178);
+  color: white;
+}
+
+.btn-morado:hover {
+  background-color: rgb(215, 146, 245);
+ 
+}
+.btn-danger-custom:hover {
+  background-color: darkred;
+}
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+::-webkit-scrollbar {
+  width: 10px; 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(215, 146, 245);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.card-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto; 
+}
+
+.card-buttons .btn {
+  flex: 1; 
+  min-width: 120px; 
+}
+
+footer {
+  margin-top: 5px;
+  background-color:rgba(255, 255, 255, 0.657);
+
+  img {
+    width: 35px;
+    filter: invert(1);
+  }
+}

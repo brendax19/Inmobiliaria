@@ -1,0 +1,42 @@
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  background-image: url(/images/olas.jpg);
+  background-size: cover;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-style: italic;
+}
+.contenedor{
+  margin-top: 150px;
+  color:  #ff69b4;
+  font-size: 20px;
+}
+h1{
+ color: black;
+}
+.btn-pink {
+  background-color: #fc47a1;
+  color: #fff;
+}
+.btn-pink:hover {
+  background-color: #ff4b9fb4; 
+
+}
+
+footer {
+  background-color:rgba(255, 255, 255, 0.657);
+
+  img {
+    width: 35px;
+    filter: invert(1);
+  }
+}
+.form-container {
+  background-color: #5596d8c7; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}

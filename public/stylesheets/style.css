@@ -1,0 +1,86 @@
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-image: url(/images/bd2.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-style: italic;
+}
+
+h1, h2 {
+  margin-top: 50px;
+  color: orange;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.about ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.about li {
+  margin-bottom: 10px;
+}
+
+.about a {
+  color: black;
+  background-color: bisque;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.about iframe {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-orange {
+  background-color: orange;
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: darkorange;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.657);
+}
+footer img {
+  width: 35px;
+  filter: invert(1);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkorange;
+}
+
+.card {
+  max-width: 100%;
+}/*# sourceMappingURL=style.css.map */
